@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Courtney's Website </title>
+	<title> Courtney Conway </title>
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Bungee+Shade|Lora" rel="stylesheet">
+	<link href="style.css" type="text/css" rel="stylesheet">
+<style>
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+</style> 
 </head>
 <body>
-<h1> Contact Me </h1> 
-<p> 
-	<li> <a href="index.html">Home</li>
+	<header>
+	
+<h1> Courtney Conway </h1> 
+<p>
+<ul>
+	<li> <a href="about.html">About</li>
+	<li> <a href="works.html">Published Works</li>
+	<li> <a href="contact.html">Contact</li>
+	<li> <a href="https://www.instagram.com/courtney.conway_/" target="blank">Follow Me</a></li>
+
 </body>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <h3>Let's Work Together</h3>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
 </html>
