@@ -43,7 +43,7 @@ ul {
 @media screen and (max-width: 320px) {
 	header h1 {
 		text-align: center;
-		font-size: 100%
+		font-size: 50px;
 		margin: 20 px 0px 20px 0px; 
 	}
 	.navbar li {
